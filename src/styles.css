@@ -1,4 +1,17 @@
 .App {
   font-family: sans-serif;
-  text-align: center;
+}
+
+#container {
+  display: flex;
+}
+
+#editor,
+#preview {
+  width: 50%;
+  padding: 2em;
+}
+
+#preview {
+  text-align: initial;
 }
